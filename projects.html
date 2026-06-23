@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soorya Narayanan — Projects</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo-sun" aria-label="Home">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+        <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <line x1="12" y1="2.2" x2="12" y2="4.7"/>
+          <line x1="12" y1="19.3" x2="12" y2="21.8"/>
+          <line x1="2.2" y1="12" x2="4.7" y2="12"/>
+          <line x1="19.3" y1="12" x2="21.8" y2="12"/>
+          <line x1="5" y1="5" x2="6.7" y2="6.7"/>
+          <line x1="17.3" y1="17.3" x2="19" y2="19"/>
+          <line x1="5" y1="19" x2="6.7" y2="17.3"/>
+          <line x1="17.3" y1="6.7" x2="19" y2="5"/>
+        </g>
+      </svg>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">ABOUT</a>
+      <a href="projects.html" class="active">PROJECTS</a>
+      <a href="cv.html">CV</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">PROJECTS</h1>
+    <p class="eyebrow">Selected research and production builds</p>
+
+    <div class="section-label">RESEARCH</div>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>PMNet — Verizon</h3>
+        <p>97% signal accuracy across 19K+ geospatial samples, 5 urban scenes.</p>
+        <div class="tags">PyTorch · HPC · 5G</div>
+      </div>
+
+      <div class="project-card">
+        <h3>LLM Benchmarking — Google</h3>
+        <p>10 frontier LLMs evaluated; findings shaped model-selection calls.</p>
+        <div class="tags">Eval Frameworks · Research</div>
+      </div>
+    </div>
+
+    <div class="section-label">PERSONAL PROJECTS</div>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Intelligent Bistro</h3>
+        <p>Conversational AI food-ordering app — order by voice, text, or tap. 159+ tests passing, strict TypeScript, CI/CD pipeline.</p>
+        <div class="tags">React Native · MCP · CI/CD</div>
+        <div class="card-links">
+          <a class="demo-link" href="https://www.loom.com/share/db98a7c889f44ffcb5dea4e0518f5d42" target="_blank" rel="noopener">▶ Demo</a>
+          <a class="repo-link" href="https://github.com/Soorya2201/IB" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Immuny — Health Ally</h3>
+        <p>Clinical AI allergy tracker in production, routing between AWS Nova Micro and MedGemma 4B (4-bit quantized).</p>
+        <div class="tags">AWS Nova · MedGemma · DynamoDB</div>
+        <div class="card-links">
+          <a class="repo-link" href="https://github.com/Soorya2201/Medgemma" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>RL Autonomous Driving</h3>
+        <p>PPO agent on a ray-casting car simulation, cutting collision rate 40% over a random-policy baseline.</p>
+        <div class="tags">Stable-Baselines3 · PPO</div>
+        <div class="card-links">
+          <a class="demo-link" href="https://drive.google.com/file/d/1moOJdhn-2XTUbPm8Y2I-_lR_76FmFDR2/view" target="_blank" rel="noopener">▶ Demo</a>
+          <a class="repo-link" href="https://github.com/Soorya2201/RL_Training-of-vehicle-agent-using-Stable_Baseline3" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Insurance Policy Intelligence Engine</h3>
+        <p>RAG-powered agentic AI on Cloudflare Workers — upload benefit docs, ask questions, get plan recommendations.</p>
+        <div class="tags">Cloudflare · RAG · React/TS</div>
+        <div class="card-links">
+          <a class="repo-link" href="https://github.com/Soorya2201/cf_ai_Insurance-Policy-Intelligence-Engine-" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>RNA-Seq Matching Pipeline</h3>
+        <p>One-command pipeline taking raw RNA-seq runs through QC, alignment, and quantification into matched sample reports.</p>
+        <div class="tags">Bioinformatics · Python</div>
+        <div class="card-links">
+          <a class="repo-link" href="https://github.com/Soorya2201/RNA-Sequencing-Pipeline" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>RLVR Fine-Tuning — Qwen2.5-7B</h3>
+        <p>Fine-tuned Qwen2.5-7B with GRPO on the tau2-bench benchmark to output structured tool calls instead of prose.</p>
+        <div class="tags">GRPO · LoRA · 4-bit Quant</div>
+        <div class="card-links">
+          <a class="repo-link" href="https://github.com/Soorya2201/AfterQuery_RLVR_Submission" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Sentiment-Driven Portfolio Optimizer</h3>
+        <p>Black-Litterman optimization + FinBERT sentiment signals. Sharpe 1.43, alpha 6.2%, beats passive S&amp;P 500.</p>
+        <div class="tags">FinBERT · Black-Litterman</div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">© 2026 Soorya Narayanan</footer>
+
+  <script src="js/theme.js"></script>
+</body>
+</html>
