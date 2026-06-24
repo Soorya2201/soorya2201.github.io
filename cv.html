@@ -65,7 +65,7 @@
       <div class="cv-entry edu-entry">
         <div class="edu-logo-col">
           <img src="assets/anna-university-logo.png" alt="Anna University logo" class="edu-logo" />
-          <span class="date-badge edu-date">2020.09 – 2024.05</span>
+          <span class="date-badge edu-date">2020.09 – 2025.05</span>
         </div>
         <div class="edu-info">
           <div class="cv-entry-head">
@@ -73,7 +73,7 @@
           </div>
           <div class="meta">Anna University · Chennai, India</div>
           <ul>
-            <li>Coursework: Data Structures &amp; Algorithms, Machine Learning, Natural Language Processing, Data Science.</li>
+            <li>Coursework: Data Structures &amp; Algorithms, Machine Learning, Natural Language Processing, Deep Learning, Data Science.</li>
             <li>Minors: Business Data Analytics.</li>
           </ul>
         </div>
@@ -92,6 +92,7 @@
         <ul>
           <li>Trained PMNet on 5 urban scenes across 19,000+ geospatial samples, achieving 97% signal propagation accuracy on HPCs with cross-scene generalization to unseen environments.</li>
           <li>Engineered an end-to-end ETL pipeline ingesting 3D geospatial urban simulation data (Wireless InSite + NVIDIA Sionna) into ML-ready training datasets, achieving 57% 5G signal accuracy and delivering transmitter placement recommendations to Verizon.</li>
+          <li>Scaled training to multi-node DDP (SLURM + torchrun, FP16 mixed precision) on HPC infrastructure; reduced test-set MAE by 57% over a non-deep-learning baseline using Wireless InSite 4.0 + NVIDIA Sionna RT ray-tracing outputs fused with 3D urban geometry.</li>
         </ul>
       </div>
 
@@ -104,6 +105,7 @@
         <ul>
           <li>Built a systematic evaluation framework and best-practice benchmarking pipeline across 10 frontier LLMs, producing structured analysis reports and technical findings that informed model selection decisions.</li>
           <li>Identified where models were confidently wrong against human cognitive baselines.</li>
+          <li>Architected benchmarks for "metaphor comprehension" and "auditory imagery perception" across ~9 major frontier models, uncovering a ~14% confidence-accuracy gap; building a ground-truth benchmark dataset.</li>
         </ul>
       </div>
 
@@ -117,6 +119,7 @@
           <li>Rebuilt a wild face-recognition system on real-time live footage using RabbitMQ and FAISS-backed vector embeddings, re-architecting the preprocessing and training pipeline and boosting accuracy from 42% to 93%.</li>
           <li>Led customer-facing technical demos and deployment-architecture walkthroughs that converted 2 enterprise prospects into paying clients.</li>
           <li>Built and evaluated every major open-source face recognition/detection model available through May 2025, fine-tuned to client requirements, and maintained the AI/ML model inventory documentation.</li>
+          <li>Achieved ~70ms real-time recognition latency; benchmarked 14+ open-source face detection/recognition models with systematic latency-accuracy-cost tradeoff analysis.</li>
         </ul>
       </div>
 
@@ -156,6 +159,7 @@
         <ul>
           <li>Built a clinical AI allergy tracker with an LLM routing layer delegating between AWS Nova Micro and MedGemma 4B (4-bit quantized).</li>
           <li>Stored conversation history in DynamoDB with schema-defined data models for active production users.</li>
+          <li>Added edge deployment via ONNX for on-device inference.</li>
           <li><a href="https://github.com/Soorya2201/Immuny" target="_blank" rel="noopener">GitHub →</a></li>
         </ul>
       </div>
@@ -168,6 +172,18 @@
         <ul>
           <li>Trained a PPO-based RL agent on a custom ray-casting car simulation, optimizing reward shaping to achieve stable trajectory control and reducing collision rate by 40% over a random-policy baseline.</li>
           <li><a href="https://drive.google.com/file/d/1moOJdhn-2XTUbPm8Y2I-_lR_76FmFDR2/view" target="_blank" rel="noopener">Watch demo →</a> · <a href="https://github.com/Soorya2201/RL-Autonomous-Driving" target="_blank" rel="noopener">GitHub →</a></li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-head">
+          <h3>RL from Verifiable Rewards (RLVR)</h3>
+          <span class="date-badge">2025.03</span>
+        </div>
+        <ul>
+          <li>Applied GRPO via HuggingFace TRL to fine-tune Qwen2.5-7B-Instruct on tau2-bench, emitting structured JSON tool-call sequences using dual reward functions (format + correctness).</li>
+          <li>Improved JSON formatting accuracy to 87% with 4-bit NF4 quantization + LoRA (rank 16).</li>
+          <li><a href="https://github.com/Soorya2201/AfterQuery_RLVR_Submission" target="_blank" rel="noopener">GitHub →</a></li>
         </ul>
       </div>
 
