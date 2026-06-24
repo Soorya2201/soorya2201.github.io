@@ -462,7 +462,7 @@ main {
 }
 
 .edu-logo-col {
-  width: 120px;
+  width: 140px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -482,9 +482,8 @@ main {
 }
 
 .edu-date {
-  width: 100%;
-  text-align: center;
-  box-sizing: border-box;
+  white-space: nowrap;
+  font-size: 10.5px;
 }
 
 .edu-info {
