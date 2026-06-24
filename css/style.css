@@ -148,7 +148,7 @@ main {
 /* ---------- About page ---------- */
 .about-layout {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 1fr 270px;
   gap: 56px;
   align-items: start;
 }
