@@ -455,6 +455,43 @@ main {
   border-bottom: none;
 }
 
+.edu-entry {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.edu-logo-col {
+  width: 120px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.edu-logo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.edu-date {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.edu-info {
+  flex: 1;
+  min-width: 0;
+}
+
 .cv-entry-head {
   display: flex;
   justify-content: space-between;
@@ -570,5 +607,23 @@ footer.site-footer {
 
   .page-title, .about-layout h1 {
     font-size: 38px;
+  }
+
+  .edu-entry {
+    flex-direction: column;
+  }
+
+  .edu-logo-col {
+    width: 100px;
+    flex-direction: row;
+  }
+
+  .edu-logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .edu-date {
+    width: auto;
   }
 }
