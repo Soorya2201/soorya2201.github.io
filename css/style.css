@@ -166,6 +166,7 @@ main {
 .role-line {
   font-family: 'IBM Plex Mono', ui-monospace, monospace;
   font-size: 15px;
+  line-height: 1.6;
   color: var(--text-muted);
   margin-bottom: 32px;
 }
