@@ -30,10 +30,11 @@
       <div class="project-card card-live">
         <div class="live-badge"><span class="dot-live"></span>LIVE</div>
         <h3>Immuny — Health Ally</h3>
-        <p>Clinical AI allergy tracker in production, routing between AWS Nova Micro and MedGemma 4B (4-bit quantized).</p>
+        <p>Clinical AI allergy tracker in production, routing between AWS Nova Micro and MedGemma 7B (4-bit quantized), exported to ONNX for edge inference.</p>
         <div class="tags">AWS Nova · MedGemma · DynamoDB</div>
         <div class="users-line">Early access · small group of active users</div>
         <div class="card-links">
+          <a class="demo-link" href="https://main.d1ygg4qlozsbue.amplifyapp.com/" target="_blank" rel="noopener">Live app →</a>
           <a class="repo-link" href="https://github.com/Soorya2201/Immuny" target="_blank" rel="noopener">GitHub →</a>
         </div>
       </div>
@@ -54,7 +55,7 @@
     <div class="project-grid">
       <div class="project-card">
         <h3>PMNet — Verizon</h3>
-        <p>97% signal accuracy across 19K+ geospatial samples, 5 urban scenes.</p>
+        <p>3D autoencoder for RF pathloss prediction — 98% fidelity across 19K+ geospatial samples, 57% MAE reduction.</p>
         <div class="tags">PyTorch · HPC · 5G</div>
       </div>
 
@@ -68,8 +69,17 @@
     <div class="section-label">PERSONAL PROJECTS</div>
     <div class="project-grid">
       <div class="project-card">
+        <h3>Nika — MoE Transformer from Scratch</h3>
+        <p>2×1M-param Mixture-of-Experts transformer built from scratch (RoPE, SwiGLU, RMSNorm) with KV-cached inference, DDP + hand-rolled ring all-reduce, and an Apple Metal port.</p>
+        <div class="tags">PyTorch · MoE · Distributed</div>
+        <div class="card-links">
+          <a class="repo-link" href="https://github.com/Soorya2201/NIKA_2x_2M_model_built_from_scratch" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
         <h3>Intelligent Bistro</h3>
-        <p>Conversational AI food-ordering app — order by voice, text, or tap. 159+ tests passing, strict TypeScript, CI/CD pipeline.</p>
+        <p>Conversational AI food-ordering app — order by voice, text, or tap. 236 tests at 94% coverage, strict TypeScript, CI/CD pipeline.</p>
         <div class="tags">React Native · MCP · CI/CD</div>
         <div class="card-links">
           <a class="demo-link" href="https://www.loom.com/share/db98a7c889f44ffcb5dea4e0518f5d42" target="_blank" rel="noopener">▶ Demo</a>
@@ -110,7 +120,7 @@
         <p>Fine-tuned Qwen2.5-7B with GRPO on the tau2-bench benchmark to output structured tool calls instead of prose.</p>
         <div class="tags">GRPO · LoRA · 4-bit Quant</div>
         <div class="card-links">
-          <a class="repo-link" href="https://github.com/Soorya2201/AfterQuery_RLVR_Submission" target="_blank" rel="noopener">GitHub →</a>
+          <a class="repo-link" href="https://github.com/Soorya2201/Tau_bench_RLVR_QWEN" target="_blank" rel="noopener">GitHub →</a>
         </div>
       </div>
 
